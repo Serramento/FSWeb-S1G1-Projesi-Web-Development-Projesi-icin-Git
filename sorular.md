@@ -28,10 +28,18 @@ Bilgisayarda git üzerinde yaptığınız değişiklikleri remote depoda güncel
 
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
 
-artart
+git switch main komutu kullanılır.
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 
+git fetch= branchteki değişiklikleri indirmek için kullanılır.
+git merge= başka bir branchteki değişiklikleri kendi branchine entegre etme.
+git pull=depodaki değişiklikleri almak, bunları mevcut çalışma ile birleştirmek.
+
 7. Merge conflict nedir?
 
+İki kişi aynı dosyayı ve aynı satırı değiştirirse ve git otomatik olarak merge edemezse bu durumda conflict yani çakışma olacaktır. 
+
 8. Merge conflict'i nasıl çözeriz?
+
+Stash ve rebase komutları kullanılır. Stash değişikliklerin depoya gönderilmeden saklanmasını sağlayan komut. Rebase ise branchler arasında kodları eşitlemeye yarayan komut. Merge gibi ancak ters yönde işliyor.
