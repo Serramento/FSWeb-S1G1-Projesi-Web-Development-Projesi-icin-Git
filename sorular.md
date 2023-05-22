@@ -1,5 +1,3 @@
-Benim adım Serra.
-
 # Araştırma Soruları
 
 Artık yeni iş yerindeki ilk görevini gerçekleştirmek için hazırsın! Kullandığımız araçları biraz daha iyi anlama zamanı. Yapman istenilen şey, bu dokümanı güncelleyerek, aşağıdaki soruları soruları cevaplaman. Böylece Git yapısına biraz daha aşina olmaya başlayacaksın.
@@ -14,13 +12,23 @@ Eğer aradığın soruların cevapları GitHub docs'ta yoksa, Google'lama beceri
 
 1. Git nedir?
 
+Açık kaynak dağıtılmış sürüm kontrol sistemidir. Yazılım geliştiricilerin proje hazırlarken ve yayınlandıktan sonraki süreçte revizyonları yaparken; herkesin projenin bütün aşamalarını ve ne revizyon yapıldığını takip etmelerini ve indirip, katkı yapabilmelerini sağlayan bir sistemdir.
+
 2. Git ile GitHub arasında ne fark var?
+
+Git bir versiyon kontrol sistemidir, projenin her zaman son haline ulaşmamızı ve güncel tutmamızı sağlayan bir araçtır. GitHub ise projelerimizin depolandığı uzak sunucudur. 
 
 3. Neden bir branch oluşturuyoruz?
 
+Git deposu varsayılan bir master branchten oluşur. Git üzerinde geliştirme yaparken test süreci sonunda hatasız olduğuna emin olunca master branche taşıyabilirsiniz. Böylece orjinal kodu değiştirmeden bağımsız çalışmış oluruz.
+
 4. Pull Request'in amacı nedir?
 
+Bilgisayarda git üzerinde yaptığınız değişiklikleri remote depoda güncellememizi sağlar. 
+
 5. Bir Branchten diğerine geçmek için kullandığın KOMUT nedir? Mesela `isim-soyisim` branch'inde çalıştığını hayal et ve main branch'ine geçmek istiyorsun, ne yaparsın?
+
+artart
 
 6. `git fetch`, `git merge` ve `git pull` arasındaki farklıarı açıklayınız. Bu konutlar ne yapar açıklayınız.
 
